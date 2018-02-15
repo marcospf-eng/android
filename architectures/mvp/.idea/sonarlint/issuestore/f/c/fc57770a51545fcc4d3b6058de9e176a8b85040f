@@ -1,4 +1,0 @@
-
-Ssquid:S1068"2Remove this unused "mMainPresenter" private field.(ÁÚûÿÿÿÿ8ºëó±™,
-jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(²Ú±8Š«»°™,
-~squid:S1450"]Remove the "mMainPresenter" field and declare it as a local variable in the relevant methods.(ÁÚûÿÿÿÿ8ØŸ³™,

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     flavorDimensions "versionCode"
     defaultConfig {
-        applicationId "com.studies.marcospf.productx"
+        applicationId "com.studies.mark.architecturemvp"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -19,19 +19,19 @@ android {
     }
     productFlavors {
         productC {
-            applicationId 'com.studies.marcospf.productC'
+            applicationId 'com.studies.mark.productC'
         }
         productB {
-            applicationId 'com.studies.marcospf.productB'
+            applicationId 'com.studies.mark.productB'
         }
         productA {
-            applicationId 'com.studies.marcospf.productA'
+            applicationId 'com.studies.mark.productA'
         }
     }
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
